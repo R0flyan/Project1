@@ -5,6 +5,7 @@ document.getElementById('menu_btn').addEventListener("click", hideshowinfo);
         let x = document.getElementById('info');
         if (x.style.display == "none"){
         x.style.display = "block";
+        x.style.opacity = 1;
         } else {
         x.style.display = "none"}
     };
