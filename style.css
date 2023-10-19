@@ -1,0 +1,175 @@
+body {
+    font-family: Tahoma;
+    font-size: 17;
+    color: white;
+    /* background-color: darkslategray; */
+    background: rgb(0,10,5);
+    background: linear-gradient(90deg, rgba(0,10,5,1) 0%, rgba(50,50,50,1) 35%, rgba(50,50,50,1) 65%, rgba(0,10,5,1) 100%);
+}
+a#telega{
+    color: rgb(177, 157, 244);
+    text-decoration: none;
+}
+a#telega:hover{
+    color: white;
+}
+a#github{
+    color: rgb(177, 157, 244);
+    text-decoration: none;
+}
+a#github:hover{
+    color: white;
+}
+div#info{
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+}
+p#info_txt{
+    text-align: center;
+    font-size: 19;
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+p#person{
+    text-decoration: overline;
+    color: rgb(3, 167, 167);
+    font-family: Impact;
+
+}
+p#contact{
+    text-decoration: overline;
+    color: rgb(3, 167, 167);
+    font-family: Impact;
+}
+ol#list_info1{
+    width: 170px;
+    border: 1px dashed cadetblue;
+    border-radius: 4px;
+    font-size: large;
+    margin-bottom: 1%;
+}
+ol#list_info{
+    width: 170px;
+    border: 1px dashed cadetblue;
+    border-radius: 4px;
+    font-size: large;
+    margin-bottom: 1%;
+}
+div.menu_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+button#menu_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+}
+#divider1{
+    width: auto;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 1%;
+}
+h1#doc, h2#name{
+    text-align: center;
+}
+#divider2{
+    width: auto;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 1%;
+}
+div#portfolio_list1{
+    display: none;
+    width: 90%;
+    margin-left: 5%;
+}
+div.portfolio_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+button#portfolio_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: darkcyan;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    font-size: 17px;
+}
+a#lab1{
+    color: rgba(177, 157, 244, 1);
+    text-decoration: none;
+}
+#imglab1, #imglab2{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+}
+a#lab1:hover{
+    color: white;
+}
+.header{
+    justify-content: center;
+    /* background-color: grey; */
+    background: linear-gradient(90deg, rgba(177, 157, 244, 1) 0%, rgb(111, 93, 171, 1) 50%, rgb(81, 67, 124, 1) 100%);
+    width: 50%;
+    height: 140px;
+    border: 3px solid darkgray;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    margin-left: 25%;
+
+}
+#header_txt{
+    display: space-between;
+    width: 90%;
+    height: 160px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+h1#doc, h2#name{
+    color: seashell;
+    font-family:Verdana;
+}
+h2#name{
+    margin-bottom: 1%;
+}
+p#labs_txt{
+    text-align: center;
+    font-size: 19;
+    background-color: gray;
+    width: auto;
+    height: auto;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+.labs_list{
+    font-family: Helvetica;
+    border: 1px dashed cadetblue;
+    border-radius: 2px;
+    text-align: center;
+}
