@@ -121,7 +121,7 @@ button#menu_btn{
 button#menu_btn:hover{
     background-color: aqua;
     color: black;
-    transition: 0.7s;
+    transition: 0.6s;
 }
 #divider1{
     width: 94%;
