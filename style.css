@@ -169,7 +169,7 @@ button#portfolio_btn {
 button#portfolio_btn:hover{
     background-color: aqua;
     color: black;
-    transition: 0.7s;
+    transition: 0.6s;
 }
 a#lab1{
     color: rgba(177, 157, 244, 1);
