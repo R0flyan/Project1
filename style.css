@@ -34,17 +34,25 @@ a#vk:hover{
     transition: 0.5s;
 }
 div.blocks{
+    background-color: rgba(53, 49, 49, 0.6);
     width: 94%;
     margin-left: 3%;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(13, 13, 13, 0.8);
     border-radius: 12px;
-    box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px 10px rgba(185, 185, 185, 0.8);
+    margin-bottom: 3%;
 }
-div#info{
-    display: none;
+.info{
+    overflow: hidden;
     opacity: 0;
     width: 90%;
+    height: 0px;
     margin-left: 5%;
+    transition: 0.5s;
+}
+.info_active{
+    opacity: 1;
+    height: 280px;
 }
 p#info_txt{
     text-align: center;
@@ -141,10 +149,17 @@ h1#doc, h2#name{
     border-radius: 20px;
     margin-bottom: 1%;
 }
-div#portfolio_list1{
-    display: none;
+.portfolio_list{
+    overflow: hidden;
+    opacity: 0;
     width: 90%;
+    height: 0px;
     margin-left: 5%;
+    transition: 0.6s;
+}
+.portfolio_list_active{
+    opacity: 1;
+    height: 600px;
 }
 div.portfolio_btn {
     display: flex;
@@ -192,15 +207,15 @@ a#lab1:hover{
 .header{
     justify-content: center;
     /* background-color: grey; */
-    background: linear-gradient(90deg, rgb(73, 63, 105) 0%, rgb(111, 93, 171, 1) 50%, rgb(81, 67, 124, 1) 100%);
+    background: linear-gradient(90deg, rgb(36, 31, 51) 0%, rgb(66, 55, 101) 50%, rgb(40, 33, 61) 100%);
     width: 50%;
     height: 140px;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(13, 13, 13, 0.8);
     border-radius: 12px;
     margin-bottom: 5%;
     margin-top: 5%;
     margin-left: 25%;
-    box-shadow: 0 0 6px 2px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px 10px rgba(189, 185, 185, 0.8);
 }
 #header_txt{
     display: space-between;
