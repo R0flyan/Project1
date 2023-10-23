@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
 body {
     font-family: Tahoma;
     font-size: 17;
@@ -5,6 +6,7 @@ body {
     /* background-color: darkslategray; */
     background: rgb(0,10,5);
     background: linear-gradient(90deg, rgba(0,10,5,1) 0%, rgba(50,50,50,1) 35%, rgba(50,50,50,1) 65%, rgba(0,10,5,1) 100%);
+    background-image: url(images/fon2.jpg);
 }
 a#telega{
     color: rgb(177, 157, 244);
@@ -34,12 +36,13 @@ a#vk:hover{
     transition: 0.5s;
 }
 div.blocks{
-    background-color: rgba(53, 49, 49, 0.6);
+    background-color: rgba(53, 49, 49, 0.1);
+    backdrop-filter: blur(3px);
     width: 94%;
     margin-left: 3%;
-    border: 1px solid rgba(13, 13, 13, 0.8);
+    border: 5px solid rgba(252, 5, 166, 0.918);
     border-radius: 12px;
-    box-shadow: 0 0 10px 10px rgba(185, 185, 185, 0.8);
+    box-shadow: 0 0 12px 10px rgba(184, 3, 156, 0.85);
     margin-bottom: 3%;
 }
 .info{
@@ -141,6 +144,7 @@ button#menu_btn:hover{
     margin-bottom: 1%;
 }
 h1#doc, h2#name{
+    font-family: Verdana;
     text-align: center;
 }
 #divider2{
@@ -176,7 +180,7 @@ button#portfolio_btn {
     border: 3px solid white;
     border-radius: 10px;
     color: white;
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 0.2);
     width: 150px;
     height: auto;
     text-align: center;
@@ -209,18 +213,20 @@ a#lab1:hover{
 .header{
     justify-content: center;
     /* background-color: grey; */
-    background: linear-gradient(90deg, rgb(36, 31, 51) 0%, rgb(66, 55, 101) 50%, rgb(40, 33, 61) 100%);
+    /* background: linear-gradient(90deg, rgb(36, 31, 51) 0%, rgb(66, 55, 101) 50%, rgb(40, 33, 61) 100%); */
+    background-color: rgba(53, 49, 49, 0.1);
+    backdrop-filter: blur(3px);
     width: 50%;
     height: 140px;
-    border: 1px solid rgba(13, 13, 13, 0.8);
+    border: 5px solid rgba(255, 102, 0, 0.959);
     border-radius: 12px;
     margin-bottom: 5%;
     margin-top: 5%;
     margin-left: 25%;
-    box-shadow: 0 0 10px 10px rgba(189, 185, 185, 0.8);
+    box-shadow: 0 0 12px 10px rgba(196, 76, 2, 0.821);
 }
 #header_txt{
-    display: space-between;
+    display: block;
     width: 90%;
     height: auto;
     text-align: center;
@@ -228,9 +234,14 @@ a#lab1:hover{
     justify-content: center;
     margin-left: 5%;
 }
-h1#doc, h2#name{
+#headerpng{
+    margin-right: 9%;
+    justify-self: center;
+    align-self: center;
+}
+#doc, #name{
     color: black;
-    font-family:Verdana;
+    font-family: Tahoma;
     text-shadow: 0 0 3px cyan, 0 0 0.2em cyan;
 }
 h2#name{
