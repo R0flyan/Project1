@@ -3,7 +3,6 @@ body {
     font-family: Tahoma;
     font-size: 17;
     color: white;
-    /* background-color: darkslategray; */
     background: rgb(0,10,5);
     background: linear-gradient(90deg, rgba(0,10,5,1) 0%, rgba(50,50,50,1) 35%, rgba(50,50,50,1) 65%, rgba(0,10,5,1) 100%);
     background-image: url(images/fon2.jpg);
@@ -210,19 +209,24 @@ a#lab1:hover{
 a#lab1:hover{
     color: white;
 }
+#headbody{
+    display: flex;
+    justify-content: center;
+}
+#imgchainL, #imgchainR{
+    width: auto;
+    height: 250px;
+}
 .header{
     justify-content: center;
-    /* background-color: grey; */
-    /* background: linear-gradient(90deg, rgb(36, 31, 51) 0%, rgb(66, 55, 101) 50%, rgb(40, 33, 61) 100%); */
     background-color: rgba(53, 49, 49, 0.1);
     backdrop-filter: blur(3px);
-    width: 50%;
-    height: 140px;
+    width: 480px;
+    height: 150px;
     border: 5px solid rgba(255, 102, 0, 0.959);
     border-radius: 12px;
     margin-bottom: 5%;
     margin-top: 5%;
-    margin-left: 25%;
     box-shadow: 0 0 12px 10px rgba(196, 76, 2, 0.821), inset 0 0 12px 10px rgba(196, 76, 2, 0.821);
 }
 #header_txt{
