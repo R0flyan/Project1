@@ -42,7 +42,7 @@ div.blocks{
     margin-left: 3%;
     border: 5px solid rgba(252, 5, 166, 0.918);
     border-radius: 12px;
-    box-shadow: 0 0 12px 10px rgba(184, 3, 156, 0.85);
+    box-shadow: 0 0 12px 10px rgba(184, 3, 156, 0.85), inset 0 0 12px 10px rgba(184, 3, 156, 0.85);
     margin-bottom: 3%;
 }
 .info{
@@ -123,7 +123,7 @@ button#menu_btn{
     border: 3px solid white;
     border-radius: 10px;
     color: white;
-    background-color: darkcyan;
+    background-color: rgba(0, 139, 139, 0.2);
     width: 150px;
     height: auto;
     text-align: center;
@@ -223,7 +223,7 @@ a#lab1:hover{
     margin-bottom: 5%;
     margin-top: 5%;
     margin-left: 25%;
-    box-shadow: 0 0 12px 10px rgba(196, 76, 2, 0.821);
+    box-shadow: 0 0 12px 10px rgba(196, 76, 2, 0.821), inset 0 0 12px 10px rgba(196, 76, 2, 0.821);
 }
 #header_txt{
     display: block;
