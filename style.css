@@ -206,16 +206,9 @@ a#lab1:hover{
     height: auto;
     justify-content: center;
 }
-a#lab1:hover{
-    color: white;
-}
 #headbody{
     display: flex;
     justify-content: center;
-}
-#imgchainL, #imgchainR{
-    width: auto;
-    height: 250px;
 }
 .header{
     justify-content: center;

@@ -19,7 +19,7 @@
 //     };
 document.getElementById('menu_btn').addEventListener("click", hideshowinfo);
     function hideshowinfo() {
-        var x = document.querySelector('.info');
+        let x = document.querySelector('.info');
         if (x.classList == "info"){
         x.classList.add("info_active");
         } else {
@@ -27,7 +27,7 @@ document.getElementById('menu_btn').addEventListener("click", hideshowinfo);
     };
 document.getElementById('portfolio_btn').addEventListener("click", hideshowportf);
     function hideshowportf() {
-        var list = document.querySelector('.portfolio_list');
+        let list = document.querySelector('.portfolio_list');
         if (list.classList == "portfolio_list"){
         list.classList.add("portfolio_list_active");
         } else {
